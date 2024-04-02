@@ -1,0 +1,162 @@
+
+
+#header{ 
+	padding-bottom:10px; 
+	margin:auto;
+	WIDTH: 703px; 
+	TEXT-ALIGN: center;
+	font-weight:bold;
+}
+
+#logUNAM{
+float:left;
+width:100px;
+}
+
+#txtHeader{
+float:left;
+width:500px;
+}
+
+
+#logDGIRE{
+float:left;
+width:100px;
+}
+
+
+label {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	display: block;
+}
+
+#body {
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	MARGIN: 0px auto; 
+	WIDTH: 90%; 
+	TEXT-ALIGN: left;
+	font-weight:bold;
+	color:#FFFFFF;
+
+}
+
+#tool{
+	clear:both;
+	float:right;
+	font-weight:bold;
+	padding-top:20px;
+}
+
+#tool #btn6,#btn4,#btn3,#btnB,#btn2{
+	float:right;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+#btn1, #btn5{
+	clear:both;
+	clear:both;
+	float:right;
+	padding-top:20px;
+	padding-right:10px;
+}
+
+#newFolio{
+	float:none;
+	clear:both;
+	padding-top:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+
+}
+
+#lstFolio{
+	float:none;
+	clear:both;
+	font-weight:bold;
+	color:#000;
+	padding-top:20px;
+}
+
+fieldset {
+	border-top:  #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	border-right: solid 1px #999;
+	background-color: #EEE;
+	padding-bottom:10px;
+
+}
+
+legend {
+color: #000;
+
+background-color: #999;
+border: 0px solid #781351;
+padding: 2px 6px
+}
+
+#a, #b, #c, #d, #e{
+	float:left;
+	padding-left:10px;
+}
+
+
+
+#dvF {
+	float:left;
+	padding-left:10px;
+}
+
+#cF1,#cF2 {
+	float: left;
+	padding-left:10px;
+}
+
+#dvFch{
+	float:left;
+	padding-left:10px;
+}
+
+#cFch1, #cFch2{
+	float:left;
+	padding-left:10px;
+}
+
+#dvEs{
+	float:left;
+	padding-left:10px;
+}
+
+#dvDir{
+	float:left;
+	padding-left:10px;
+}
+
+#dvAs{
+	float:left;
+	padding-left:10px;
+}
+
+#dvSlc{
+	float:left;
+	padding-left:10px;
+}
+
+#tool2 {
+	float: right;
+	clear:both;
+}
+
+#qFolios {
+	clear:both;
+}
+
+#ss{
+	clear:both;
+	margin:0 auto 0 auto; width:90%;
+}

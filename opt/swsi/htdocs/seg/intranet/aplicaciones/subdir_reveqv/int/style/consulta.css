@@ -1,0 +1,7 @@
+.tabla_search{font-size:12px; font-weight:normal;}
+#btnGuardar{ font-size:12px; width:160px; height:23px; }
+
+
+.ok{ font-size:12px; display:none; font-weight:bold; }
+.error{ font-size:12px; display:none; font-weight:bold; }
+.cancela{ font-size:12px; display:none; font-weight:bold; }

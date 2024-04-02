@@ -1,0 +1,50 @@
+.cls1{
+	width: 10px;
+	text-align: center;
+}
+
+.center{
+	text-align:center;
+}
+
+#tPromedios input{
+	text-align:center;
+}
+
+#tMinMax input{
+	text-align:center;
+}
+
+.tbody input{
+	text-align:center;
+}
+
+.tbody td{
+	text-align:center;
+}
+
+.hide{
+	
+	border: none transparent;
+	outline: none;
+
+}
+
+.clsHeight{
+	height: 19px;
+}
+
+.folio{
+	text-transform:uppercase;
+}
+
+.clsText{
+	width: 100%;
+}
+
+#btnAceptar
+,#btnFile
+,#btnClear {
+	font-size: 12px;
+}
+   

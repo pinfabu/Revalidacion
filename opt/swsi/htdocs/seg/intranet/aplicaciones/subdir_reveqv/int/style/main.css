@@ -1,0 +1,155 @@
+/* CSS Document */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image:url(../img/cubes.png);
+	margin-top:0px;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.ui-jqdialog-titlebar-close {
+  visibility: hidden;
+}
+
+#mainWrapper {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid #CF0 0px;
+}
+
+#headWrapper {
+	background-image: url(../img/baner.png);
+	min-height: 150px;
+	border:solid #CF0 0px;
+}
+
+/************* Titulos *********************************/
+
+#titulo{
+	position:absolute;
+	color:#fff;
+	font-size:20px;
+	width:400px;
+	margin-top:30px;
+	margin-left:470px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: bold;
+	border:solid #CF0 0px;
+	text-align:right
+}
+
+#subtitulo{
+	position:absolute;
+	color:#d1ac3c;
+	font-size:20px;
+	width:400px;
+	margin-top:90px;
+	margin-left:470px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: bold;
+	border:solid #CF0 0px;
+	text-align:right
+}
+
+#titulo2{
+	color:#d1ac3c;
+	font-size:22px;
+	float:left;
+	margin-top:30px;
+	margin-left:160px;
+	border:solid #CF0 0px;
+	width:250px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: bold;
+}
+
+#subtitulo2{
+	position:absolute;
+	color:#FFF;
+	font-size:22px;
+	width:250px;
+	margin-top:65px;
+	margin-left:160px;
+	border:solid #CF0 0px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: bold;
+
+}
+
+/************************************************************/
+
+#headLine{
+	background-color:#f7ba47;
+	height:3px;
+ 	border:solid #CF0 0px;
+}
+
+/*************** Footer ********************/
+
+#footWrapper {
+	background-image: url("../img/foo.png"); 
+	font-size: 10px;
+	text-align: center;
+	color:#fff;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:solid #CF0 0px;
+}
+
+#footWrapper a{
+	color: #FFF;
+	text-decoration:none;
+}
+
+/*****************************************/
+
+#contentWrapper {
+	min-height:500px;
+	height: 100%; 
+	width: 100%; 
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/********* Banda ***********************/
+
+#main{
+	border:solid #f7ba47 2px;
+	border-top:0px;
+	height:35px;
+	color:#000;
+}
+
+#title_usuario{
+border:solid #0F9 0px;
+font-size:13px;
+width:500px;
+float:left;
+padding-left:10px;
+margin-top:10px;
+color:black;
+text-shadow: 0.1em 0.1em 0.2em gray;
+}
+
+
+
+#btncerrarsesion{
+	font-size:12px;
+	top:5px;
+	right:5px;
+}
+
+#btnregresar{
+        font-size:12px;
+        top:5px;
+        right:5px;
+}
+
+#btnAnterior{
+        font-size:12px;
+        top:5px;
+        right:5px;
+}

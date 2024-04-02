@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin t&iacute;tulo</title>
+<script>
+function objetoAjax(){
+	var xmlhttp=false;
+	try {
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+	} catch (e) {
+		try {
+		   xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		} catch (E) {
+			xmlhttp = false;
+  		}
+	}
+
+	if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+		xmlhttp = new XMLHttpRequest();
+	}
+	return xmlhttp;
+}
+
+function nuevo_evento(elemento, evento, funcion) {
+      if (elemento.addEventListener) {
+            elemento.addEventListener(evento, funcion, false);
+      } else {
+            elemento.attachEvent("on"+evento, funcion);
+      }
+}
+
+var fn = nuevo_evento(window,"unload",function (){
+
+	ajax=objetoAjax();
+	ajax.open("POST", "login/conexion/close_aux.php",true);
+	ajax.onreadystatechange=function(ajax) {
+		if (ajax.readyState==4) {
+
+		}
+	}
+	ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	ajax.send("salir=1");
+}
+);
+
+
+function closeSistem(){
+
+	ajax=objetoAjax();
+	ajax.open("POST", "login/conexion/close_aux.php",true);
+	ajax.onreadystatechange=function(ajax) {
+		if (ajax.readyState==4) {
+
+		}
+	}
+	ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	ajax.send("salir=1");
+}
+</script>
+</head>
+
+<body onunload="closeSistem()">
+
+</body>
+</html>

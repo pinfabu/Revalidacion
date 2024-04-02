@@ -1,0 +1,28 @@
+#header{
+	padding-bottom:10px; 
+	margin:auto;
+	WIDTH: 703px; 
+	TEXT-ALIGN: center;
+	font-weight:bold;
+}
+
+#logUNAM{
+float:left;
+width:100px;
+}
+
+#txtHeader{
+float:left;
+width:500px;
+}
+
+
+#logDGIRE{
+float:left;
+width:100px;
+}
+
+#body {
+clear:both;
+padding-top:30px;
+}

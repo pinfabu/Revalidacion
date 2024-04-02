@@ -1,0 +1,9 @@
+#contentInicio {
+	background-image: url(../img/logotipo.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	min-height:500px;
+	height: 100%; 
+	width: 100%; 
+	margin: 0 auto;
+}
